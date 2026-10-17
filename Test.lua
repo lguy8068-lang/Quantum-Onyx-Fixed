@@ -235,7 +235,7 @@ local function TU(K)
 	end
 	return table.concat(c)
 end
-local xU = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/main/"
+local xU = "https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/"
 local eU = xU
 local yU = {}
 local zU = {}
@@ -258,7 +258,7 @@ local function wU(K, n)
 	end
 	return nil
 end
-local oU = wU("Util/BloxFruitModule/Preload/Data.lua") or {}
+local oU = wU("refs/heads/main/Data.lua") or {}
 local GU = wU("Util/BloxFruitModule/Preload/Visuals.lua") or {}
 local rU = wU("dev/niulai.lua")
 local BU = oU.MaterialEnemies
@@ -6251,7 +6251,7 @@ yU.LoadLibrary = function()
 	e.OnAutoLoadScript = function()
 		if X.AutoLoadScriptonLoad then
 			local K = X.TeamSelectLoad or "Pirates"
-			local n = string.format(" task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua\"))() ", K)
+			local n = string.format(" task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/refs/heads/main/Quantum%20Onyx%20Loader.lua\"))() ", K)
 			local p = pcall(function()
 				syn.queue_on_teleport(n)
 			end)
@@ -14462,6 +14462,6 @@ task.spawn(function()
 	task.wait(1)
 	yU:SendNotify("Quantum (INFO)", "Quantum Onyx Script is 100% Free and Keyless", 8)
 	pcall(function()
-		(loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Util/BloxFruitModule/Preload/Weebo.lua")))()
+		(loadstring(game:HttpGet("https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/refs/heads/main/Weebo.lua")))()
 	end)
 end)
