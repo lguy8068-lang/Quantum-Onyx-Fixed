@@ -265,7 +265,7 @@ if not RunService then
 		return table.concat(tbl7)
 	end
 
-	local str3 = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/main/"
+	local str3 = "https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/"
 	local tbl6 = {}
 	local tbl7 = {}
 
@@ -306,7 +306,7 @@ if not RunService then
 		return nil
 	end
 
-	local lua = fn5("Util/BloxFruitModule/Preload/Data.lua") or {}
+	local lua = fn5("refs/heads/main/Data.lua") or {}
 	local lua2 = fn5("Util/BloxFruitModule/Preload/Visuals.lua") or {}
 	local lua3 = fn5("dev/testers.lua")
 	local materialEnemies = lua.MaterialEnemies
@@ -14153,7 +14153,7 @@ Restock: %s
 		tbl6:SendNotify("Quantum (INFO)", "Quantum Onyx Script is 100% Free and Keyless", 8)
 
 		pcall(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Util/BloxFruitModule/Preload/Weebo.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/refs/heads/main/Weebo.lua"))()
 		end)
 	end)
 
