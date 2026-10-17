@@ -1,5 +1,5 @@
 local BLOX_FRUITS_GAME_ID = 994732206
-local BLOX_FRUITS_URL = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Games/BloxFruits.lua"
+local BLOX_FRUITS_URL = "https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/refs/heads/main/Blox%20Fruit.lua"
 
 local StarterGui = game:GetService("StarterGui")
 
