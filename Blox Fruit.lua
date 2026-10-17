@@ -6463,7 +6463,7 @@ Restock: %s
 		local tbl19 = {
 			OnAutoLoadScript = function()
 				if tbl.AutoLoadScriptonLoad then
-					local str5 = string.format(" task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua\"))() ", tbl.TeamSelectLoad or "Pirates")
+					local str5 = string.format(" task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/lguy8068-lang/Quantum-Onyx-Fixed/refs/heads/main/Quantum%20Onyx%20Loader.lua\"))() ", tbl.TeamSelectLoad or "Pirates")
 
 					if not pcall(function()
 						syn.queue_on_teleport(str5)
